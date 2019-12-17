@@ -10,7 +10,7 @@ def index():
 def cakes():
     return render_template('cakes.html')
 
-@app.route('/hello/<,mate>')
+@app.route('/hello/<mate>')
 def hello(name):
     return render_template('page.html', name=name)
 
